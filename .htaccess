@@ -1,0 +1,44 @@
+## 1. Configure a custom error document response for HTTP response status of 404
+## ("Not Found").
+ErrorDocument 404 /error.html
+
+## 2. Set expiration headers so that CSS, JavaScript, and image (JPEG, GIF, PNG)
+## files are cached for one week (a setting suggested by PageSpeed).
+
+## Requires mod_expires to be enabled.
+<ifmodule mod_expires.c>
+    <Filesmatch "\.(jpg|jpeg|png|gif|js|css|ico)$">
+        ExpiresActive on
+        ExpiresDefault "access plus 7 days"
+    </Filesmatch>
+</ifmodule>
+
+## 3. Set an output filter so that HTML/XHTML, CSS, and JavaScript files are
+## compressed before they are sent to the web browser.
+#Gzip
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript text/javascript image/jpeg
+</ifmodule>
+#End Gzip
+
+## 4. Create a redirect or rewrite rule so that the URL (where your username is
+## substituted in place of jharvard):
+
+## http://cscie12students.dce.harvard.edu/~jharvard/myfavoritebook
+
+## redirects (HTTP 301 or 302) to a page that contains information about a
+## favorite book of yours. The page that is redirected to should be an external
+## URL (e.g. from WorldCat, Amazon, B&N, publisher site, etc.).
+
+## Use “Redirect” unless you want to take on the more difficult (but more
+## flexible) “Rewrite” configuration.
+
+## Options +FollowSymlinks
+## RewriteEngine On
+## RewriteBase /
+## RewriteRule ^myfavoritebook?$ http://www.amazon.com/Juan-Salvador-Gaviota-Spanish-Richard/dp/8498729734/ref=sr_1_3?s=books&ie=UTF8&qid=1430162869&sr=1-3&keywords=juan+salvador+gaviota [R,NC]
+
+# Revise http://httpd.apache.org/docs/2.4/mod/mod_rewrite.html#rewriterule
+## Let me make a chage here!!
+
+## More changes!!!
