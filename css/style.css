@@ -2360,3 +2360,7 @@ ul.colors li a.active:after {
         display: none;
     }
 }
+
+.label-background-personal {
+    background-color: #f8333c;
+}
