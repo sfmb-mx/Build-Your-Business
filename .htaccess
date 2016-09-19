@@ -1,6 +1,6 @@
 ## 1. Configure a custom error document response for HTTP response status of 404
 ## ("Not Found").
-ErrorDocument 404 /error.html
+ErrorDocument 404 /index-404.html
 
 ## 2. Set expiration headers so that CSS, JavaScript, and image (JPEG, GIF, PNG)
 ## files are cached for one week (a setting suggested by PageSpeed).
