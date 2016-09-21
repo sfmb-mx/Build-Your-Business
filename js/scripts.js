@@ -155,6 +155,7 @@ if(!Modernizr.touch){
                 .attr('disabled','disabled');
             $.post(action, {
                 name: $('#name').val(),
+                startup: $('#startup').val(),
                 email: $('#email').val(),
                 phone: $('#phone').val(),
                 comments: $('#comments').val(),
