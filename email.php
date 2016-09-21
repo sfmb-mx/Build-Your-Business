@@ -18,7 +18,7 @@ $challenge = $_POST["challenge"];
 /* $email = $_POST["email"];*/
 $email = 'jorge@build-yourbusiness.com';
 
-$subject = "New Email";
+$subject = "A Build YourBusiness customer sent a message to you!";
 $message_content = $_POST["comments"];
 
 $headers = "From: $name <$email>\r\n";
