@@ -162,7 +162,7 @@ if(!Modernizr.touch){
                 market: $('#market').val(),
                 stage: $('#stage').val(),
                 challenge: $('#challenge').val(),
-                email: $('#email').val(),
+                // email: $('#email').val(),
                 comments: $('#comments').val(),
             },
                    function(data){

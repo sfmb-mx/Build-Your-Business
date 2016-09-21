@@ -15,8 +15,8 @@ $webpage = $_POST["webpage"];
 $market = $_POST["market"];
 $stage = $_POST["stage"];
 $challenge = $_POST["challenge"];
-
-$email = $_POST["email"];
+/* $email = $_POST["email"];*/
+$email = "jorge@build-yourbusiness.com"
 
 $subject = "New Email";
 $message_content = $_POST["comments"];
@@ -35,7 +35,6 @@ $message .= "Webpage: $webpage \r\n";
 $message .= "Market: $market \r\n";
 $message .= "Stage: $stage \r\n";
 $message .= "challenge: $challenge \r\n";
-$message .= "Email: $email \r\n";
 $message .= "Message: $message_content \r\n";
 $message .= "--$mime_boundary--\r\n";
 $mail_sent = mail($address, $subject, $message, $headers);
