@@ -2,8 +2,7 @@
 
 //-----------------------------------------------------
 //-----------change address to xxx@yourdomainname -----
-/* $address= "jorge@build-yourbusiness.com";*/
-$address= "s.f.m@ieee.org";
+$address= "jorge@build-yourbusiness.com";
 //-----------------------------------------------------
 //-----------------------------------------------------
 
@@ -18,7 +17,7 @@ $challenge = $_POST["challenge"];
 /* $email = $_POST["email"];*/
 $email = 'jorge@build-yourbusiness.com';
 
-$subject = "A Build YourBusiness customer sent a message to you!";
+$subject = "A Build Your Business customer sent a message to you!";
 $message_content = $_POST["comments"];
 
 $headers = "From: $name <$email>\r\n";
