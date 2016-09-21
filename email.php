@@ -9,6 +9,7 @@ $address= "s.f.m@ieee.org";
 
 $name = $_POST["name"];
 $startup = $_POST["startup"];
+$role = $_POST["role"];
 
 $email = $_POST["email"];
 $phone = $_POST["phone"];

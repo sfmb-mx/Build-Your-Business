@@ -156,6 +156,7 @@ if(!Modernizr.touch){
             $.post(action, {
                 name: $('#name').val(),
                 startup: $('#startup').val(),
+                role: $('#role').val(),
                 email: $('#email').val(),
                 phone: $('#phone').val(),
                 comments: $('#comments').val(),
