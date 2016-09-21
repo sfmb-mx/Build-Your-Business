@@ -1,7 +1,7 @@
 <?php
 
 //-----------------------------------------------------
-//-----------change address to xxx@yourdomainname ----------------------
+//-----------change address to xxx@yourdomainname -----
 $address= "jorge@build-yourbusiness.com";
 //-----------------------------------------------------
 //-----------------------------------------------------
@@ -25,7 +25,7 @@ $headers .= "Reply-To: $subject <$email>\r\n";
 
 $message = "--$mime_boundary \r\n";
 
-$message .= "You have an email from your web site: \r\n";
+$message .= "You have an email from your web site: \r\n\n";
 $message .= "Name: $name \r\n";
 $message .= "Startup: $startup \r\n";
 $message .= "Role: $yrole \r\n";
