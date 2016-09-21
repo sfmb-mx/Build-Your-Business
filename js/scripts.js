@@ -157,8 +157,8 @@ if(!Modernizr.touch){
                 name: $('#name').val(),
                 startup: $('#startup').val(),
                 yrole: $('#yrole').val(),
-                email: $('#email').val(),
                 phone: $('#phone').val(),
+                email: $('#email').val(),
                 comments: $('#comments').val(),
             },
                    function(data){
