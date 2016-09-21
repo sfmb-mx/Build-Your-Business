@@ -12,6 +12,9 @@ $startup = $_POST["startup"];
 $yrole = $_POST["yrole"];
 $phone = $_POST["phone"];
 $webpage = $_POST["webpage"];
+$market = $_POST["market"];
+$stage = $_POST["stage"];
+$challenge = $_POST["challenge"];
 
 $email = $_POST["email"];
 
@@ -29,6 +32,9 @@ $message .= "Startup: $startup \r\n";
 $message .= "Role: $yrole \r\n";
 $message .= "Phone: $phone \r\n";
 $message .= "Webpage: $webpage \r\n";
+$message .= "Market: $market \r\n";
+$message .= "Stage: $stage \r\n";
+$message .= "challenge: $challenge \r\n";
 $message .= "Email: $email \r\n";
 $message .= "Message: $message_content \r\n";
 $message .= "--$mime_boundary--\r\n";
