@@ -9,7 +9,7 @@ $address= "s.f.m@ieee.org";
 
 $name = $_POST["name"];
 $startup = $_POST["startup"];
-$role = $_POST["role"];
+$yrole = $_POST["yrole"];
 
 $email = $_POST["email"];
 $phone = $_POST["phone"];
@@ -24,7 +24,7 @@ $message = "--$mime_boundary \r\n";
 $message .= "You have an email from your web site: \r\n";
 $message .= "Name: $name \r\n";
 $message .= "Startup: $startup \r\n";
-$message .= "Role: $role \r\n";
+$message .= "Role: $yrole \r\n";
 $message .= "Email: $email \r\n";
 $message .= "phone: $phone \r\n";
 $message .= "Message: $message_content \r\n";
