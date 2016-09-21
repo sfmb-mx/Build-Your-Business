@@ -8,7 +8,11 @@ $address= "s.f.m@ieee.org";
 //-----------------------------------------------------
 
 $name = $_POST["name"];
+print "name is $name";
+
 $startup = $_POST["startup"];
+print "name is $startup";
+
 $email = $_POST["email"];
 $phone = $_POST["phone"];
 $subject = "New Email";
