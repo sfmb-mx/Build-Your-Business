@@ -16,7 +16,7 @@ $market = $_POST["market"];
 $stage = $_POST["stage"];
 $challenge = $_POST["challenge"];
 /* $email = $_POST["email"];*/
-$email = "jorge@build-yourbusiness.com"
+$email = 'jorge@build-yourbusiness.com'
 
 $subject = "New Email";
 $message_content = $_POST["comments"];
