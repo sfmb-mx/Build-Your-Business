@@ -24,6 +24,7 @@ $message = "--$mime_boundary \r\n";
 $message .= "You have an email from your web site: \r\n";
 $message .= "Name: $name \r\n";
 $message .= "Startup: $startup \r\n";
+$message .= "Role: $role \r\n";
 $message .= "Email: $email \r\n";
 $message .= "phone: $phone \r\n";
 $message .= "Message: $message_content \r\n";
