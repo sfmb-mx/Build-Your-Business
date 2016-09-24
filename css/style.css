@@ -2364,3 +2364,7 @@ ul.colors li a.active:after {
 .label-background-personal {
     background-color: #f8333c;
 }
+
+.input-recaptcha{
+    width:172px;
+}
