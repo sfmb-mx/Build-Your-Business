@@ -1039,8 +1039,10 @@
                             We can help find the Service that is right for you and your startup need it the most.
                         </p>
 
-                        <!-- Captcha extra code -->
-                        <?php require 'key.php';
+                        <?php
+                        foreach ($_POST as $key => $value) {
+                            echo '<p><strong>' . $key.':</strong> '.$value.'</p>';
+                        }
                         ?>
 
                     </div>
