@@ -1088,10 +1088,9 @@
                             </fieldset>
 
                             <!-- Captcha extra code -->
-                            <?php
-                            foreach ($_POST as $key => $value) {
-                            echo '<p><strong>' . $key.':</strong> '.$value.'</p>';
-                            }
+                            <?php require 'key.php';
+                            #Use require when file is required
+                            #Use include when the file is not required and application should continue when file is not found.
                             ?>
 
                         </form>
