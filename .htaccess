@@ -185,4 +185,4 @@ ErrorDocument 404 /index-404.html
     ModPagespeedEnableFilters collapse_whitespace,remove_comments
 </IfModule>
 
-AddType application/x-httpd-php .html .htm
+AddHandler x-httpd-php .html .htm
