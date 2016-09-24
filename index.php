@@ -1039,12 +1039,6 @@
                             We can help find the Service that is right for you and your startup need it the most.
                         </p>
 
-                        <?php
-                        foreach ($_POST as $key => $value) {
-                            echo '<p><strong>' . $key.':</strong> '.$value.'</p>';
-                        }
-                        ?>
-
                     </div>
                     <div class="col-md-6 col-contact-form text-center wow flipInX" id="contact">
                         <div id="message"></div>
@@ -1230,6 +1224,12 @@
         </script>
 
         <script src='https://www.google.com/recaptcha/api.js'></script>
+
+        <?php
+        foreach ($_POST as $key => $value) {
+            echo '<p><strong>' . $key.':</strong> '.$value.'</p>';
+        }
+        ?>
 
     </body>
 </html>
