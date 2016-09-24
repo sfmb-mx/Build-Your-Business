@@ -2,7 +2,7 @@
 
 //-----------------------------------------------------
 //-----------change address to xxx@yourdomainname -----
-$address= "jorge@build-yourbusiness.com";
+$address= "smendoza.barrera@gmail.com";
 //-----------------------------------------------------
 //-----------------------------------------------------
 
