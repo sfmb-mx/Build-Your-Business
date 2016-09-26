@@ -10,7 +10,7 @@ var Map = (function($) {
 
         // set src of google map icon for markers
         // googleMapIcon = 'http://birvacreativestudio.com/theme/springfield/img/map-pin.png';
-        googleMapIcon = '../img/map-pin.png';
+        googleMapIcon = '/img/map-pin.png';
 
         // custom google map styling
         googleMapStyle = [
